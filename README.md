@@ -15,9 +15,18 @@
   Escribe un programa que muestre por pantalla todos los números enteros positivos
 	menores a uno leído por teclado que no sean divisibles entre otro también leído de
 	igual forma
+
+Refactorizacion de Javi:
+He ordenador el codigo de forma que quede mas claro visualmente. He cambiado el nombre de las variables para que sean mas intuitivas y descriptivas. Además he creado dos metodos, uno para
+introducir el numero y el divisor y otro que compruebe lo que pide el ejercicio. He añadido un scanner.close(); y he eliminado la creacion del objeto scanner en el main ya que no se utiliza.
+
+
 # Ejercicio 4
   Diseñar dos función que reciban como parámetros tres números enteros y que devuelva
   una el máximo y otra el mínimo de los tres números.
 # Ejercicio 5
   Pedir por consola un número n y dibujar un triángulo rectángulo de n elementos de
   lado, utilizando para ello asteriscos (*). Por ejemplo, para n = 4,
+
+Refactorizacion de Javi:
+He eliminado variables que no se usan, como aste (asterisco) alto y la declaracion de scanner. He indentado correctamente los margenes y la posicion de las lineas de codigo.
